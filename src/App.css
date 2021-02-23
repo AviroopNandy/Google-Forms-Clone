@@ -1,3 +1,9 @@
+:root{
+  --purpleLight:#E0DFF6;
+  --purpleDark:#4e48bb;
+  --whiteLight:#FFFFFF;
+  --whiteLightTwo:#F8F9FB;
+}
 html{
   box-sizing: border-box;
 }
@@ -5,4 +11,7 @@ body{
   margin:0;
   padding:0;
   min-height:100vh;
+  overflow-y:hidden;
+  background:var(--purpleLight);
+  font-family: 'Roboto', sans-serif;
 }
