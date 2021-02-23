@@ -2,7 +2,9 @@
   --purpleLight:#E0DFF6;
   --purpleDark:#4e48bb;
   --whiteLight:#FFFFFF;
-  --whiteLightTwo:#F8F9FB;
+  --whiteLightTwo:#eeeef5;
+  --pinkOne:#FECFD6;
+  --pinkTwo:#FF8EA1;
 }
 html{
   box-sizing: border-box;
