@@ -41,14 +41,23 @@ export default class Home extends Component {
                             <div>hello</div>
                             <div>hello</div>
                         </div>
-                        All Forms
+                        <h3>All Forms</h3>
                         <div className={styles.formsContainer}>
-                            <div>Form1</div>
-                            <div>Form1</div>
-                            <div>Form1</div>
-                            <div>Form1</div>
-                            <div>Form1</div>
-                            <div>Form1</div>
+                            <div className={styles.form}>
+                                <div>
+                                    <div className={styles.formHeader}>
+                                        <div className={styles.status}>• New</div>
+                                        <div>Feb 24</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className={styles.form}>Form1</div>
+                            <div className={styles.form}>Form1</div>
+                            <div className={styles.form}>Form1</div>
+                            <div className={styles.form}>Form1</div>
+                            <div className={styles.form}>Form1</div>
+                            <div className={styles.form}>Form1</div>
+                            <div className={styles.form}>Form1</div>
                         </div>
                    </div>
                 </div>
