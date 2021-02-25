@@ -26,6 +26,10 @@ body,
     flex-direction: column;
     align-items: center;
 }
+.sub1>h1{
+    width:100%;
+    text-align: center;
+}
 .sub1>div{
     width:45%;
     background:var(--purpleLight);
@@ -72,7 +76,7 @@ body,
 
 .selectedController {
     transition: all 250ms ease-in-out;
-    border-bottom: 3px solid #00babd;
+    border-bottom: 3px solid var(--purpleDark);
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -104,7 +108,7 @@ body,
     margin-right: 35px;
     font-family: "Oxygen", sans-serif;
     font-size: 20px;
-    border-bottom: 3px solid #00babd;
+    border-bottom: 3px solid var(--purpleDark);
 }
 
 .box {
@@ -147,7 +151,7 @@ body,
     height: 2.1em;
     border: none;
     /* border-radius: 4px; */
-    border-bottom: 2px solid #00babd;
+    border-bottom: 2px solid var(--purpleDark);
     transition: all 250ms ease-in-out;
     padding: 3px;
     font-family: "Oxygen", sans-serif;
@@ -174,7 +178,7 @@ body,
 
 .loginInput:focus ~ span,
 .loginInput:valid ~ span {
-    color: #00babd;
+    color: var(--purpleDark);
     font-size: 16px;
     transform: translateY(-2.1em);
 }
@@ -192,9 +196,12 @@ body,
     font-family: "Oxygen", sans-serif;
     background-color: rgba(15, 15, 15, 0.03);
     margin-top: 10px;
-    border: 1px solid #00babd;
+    border: 1px solid var(--purpleDark);
     transition: all 250ms ease-in-out;
     cursor: pointer;
+    text-align: center;
+    align-items: center;
+    width:100%;
 }
 
 .loginBtn:hover {
@@ -203,7 +210,7 @@ body,
 
 .loginBtn:hover,
 .loginBtn:focus {
-    background-color: #00babd;
+    background-color: var(--purpleDark);
     color: white;
 }
 

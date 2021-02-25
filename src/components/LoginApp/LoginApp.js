@@ -3,6 +3,7 @@ import Login from "../Login/Login.js";
 import Signup from "../Signup/Signup.js";
 import styles from "./LoginApp.module.css";
 
+import DnsIcon from '@material-ui/icons/Dns';
 import DescriptionIcon from '@material-ui/icons/Description';
 import ShareIcon from '@material-ui/icons/Share';
 import DashboardIcon from '@material-ui/icons/Dashboard';
@@ -36,6 +37,7 @@ class LoginApp extends React.Component {
         return(
             <div className={ styles.rootContainer }>
                 <div className={styles.sub1}>
+                    <h1><DnsIcon />Fab Forms</h1>
                     <div><CodeIcon className={styles.done} />Hassle Free</div>
                     <div><AttachFileIcon className={styles.done} />Attachments</div>
                     <div><ColorLensIcon className={styles.done} />Color Themes</div>
