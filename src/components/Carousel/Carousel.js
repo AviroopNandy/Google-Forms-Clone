@@ -5,7 +5,7 @@ import styles from './Carousel.module.css';
 
 import DoneIcon from '@material-ui/icons/Done';
 import AttachFileIcon from '@material-ui/icons/AttachFile';
-import BackupIcon from '@material-ui/icons/Backup';
+import ShareIcon from '@material-ui/icons/Share';
 import ColorLensIcon from '@material-ui/icons/ColorLens';
 import CodeIcon from '@material-ui/icons/Code';
 import DescriptionIcon from '@material-ui/icons/Description';
@@ -42,7 +42,7 @@ export default class extends React.Component {
           <Slide index={2}>
             <div className={styles.crow}>
                 <div><DescriptionIcon className={styles.done} />Add to Folders</div>
-                <div><BackupIcon className={styles.done} />Shareable</div>
+                <div><ShareIcon className={styles.done} />Shareable</div>
                 <div><DashboardIcon className={styles.done} />Interactive UI</div>
             </div>
           </Slide>

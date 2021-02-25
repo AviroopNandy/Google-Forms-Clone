@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import styles from './Home.module.css';
 import CarouselContainer from '../../components/Carousel/Carousel';
+import Form from '../../components/Form/Form';
 
 import DnsIcon from '@material-ui/icons/Dns';
 import ListAltOutlinedIcon from '@material-ui/icons/ListAlt';
-import DeleteIcon from '@material-ui/icons/Delete';
 import DeleteOutlinedIcon from '@material-ui/icons/DeleteOutlined';
 import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
 import PermContactCalendarOutlinedIcon from '@material-ui/icons/PermContactCalendarOutlined';
@@ -12,8 +12,10 @@ import AddOutlinedIcon from '@material-ui/icons/AddOutlined';
 import PermIdentityOutlinedIcon from '@material-ui/icons/PermIdentityOutlined';
 import PermMediaOutlinedIcon from '@material-ui/icons/PermMediaOutlined';
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
-import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 export default class Home extends Component {
+    state={
+        forms:[1,2,3,4,5,6,7,8]
+    }
     render() {
         return (
             <React.Fragment>
@@ -42,135 +44,11 @@ export default class Home extends Component {
                         <CarouselContainer />
                         <h3>All Forms</h3>
                         <div className={styles.formsContainer}>
-                            <div className={styles.form}>
-                                <div>
-                                    <div className={styles.formHeader}>
-                                        <div className={styles.status}>• New</div>
-                                        <div>Feb 24</div>
-                                    </div>
-                                    <div className={styles.heading}>
-                                        <h2>Form1</h2>
-                                        <p>text text text lol</p>
-                                    </div>
-                                    <div className={styles.formIcons}>
-                                        <FavoriteBorderIcon />
-                                        <DeleteIcon />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={styles.form}>
-                                <div>
-                                    <div className={styles.formHeader}>
-                                        <div className={styles.status}>• New</div>
-                                        <div>Feb 24</div>
-                                    </div>
-                                    <div className={styles.heading}>
-                                        <h2>Form1</h2>
-                                        <p>text text text lol</p>
-                                    </div>
-                                    <div className={styles.formIcons}>
-                                        <FavoriteBorderIcon />
-                                        <DeleteIcon />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={styles.form}>
-                                <div>
-                                    <div className={styles.formHeader}>
-                                        <div className={styles.status}>• New</div>
-                                        <div>Feb 24</div>
-                                    </div>
-                                    <div className={styles.heading}>
-                                        <h2>Form1</h2>
-                                        <p>text text text lol</p>
-                                    </div>
-                                    <div className={styles.formIcons}>
-                                        <FavoriteBorderIcon />
-                                        <DeleteIcon />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={styles.form}>
-                                <div>
-                                    <div className={styles.formHeader}>
-                                        <div className={styles.status}>• New</div>
-                                        <div>Feb 24</div>
-                                    </div>
-                                    <div className={styles.heading}>
-                                        <h2>Form1</h2>
-                                        <p>text text text lol</p>
-                                    </div>
-                                    <div className={styles.formIcons}>
-                                        <FavoriteBorderIcon />
-                                        <DeleteIcon />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={styles.form}>
-                                <div>
-                                    <div className={styles.formHeader}>
-                                        <div className={styles.status}>• New</div>
-                                        <div>Feb 24</div>
-                                    </div>
-                                    <div className={styles.heading}>
-                                        <h2>Form1</h2>
-                                        <p>text text text lol</p>
-                                    </div>
-                                    <div className={styles.formIcons}>
-                                        <FavoriteBorderIcon />
-                                        <DeleteIcon />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={styles.form}>
-                                <div>
-                                    <div className={styles.formHeader}>
-                                        <div className={styles.status}>• New</div>
-                                        <div>Feb 24</div>
-                                    </div>
-                                    <div className={styles.heading}>
-                                        <h2>Form1</h2>
-                                        <p>text text text lol</p>
-                                    </div>
-                                    <div className={styles.formIcons}>
-                                        <FavoriteBorderIcon />
-                                        <DeleteIcon />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={styles.form}>
-                                <div>
-                                    <div className={styles.formHeader}>
-                                        <div className={styles.status}>• New</div>
-                                        <div>Feb 24</div>
-                                    </div>
-                                    <div className={styles.heading}>
-                                        <h2>Form1</h2>
-                                        <p>text text text lol</p>
-                                    </div>
-                                    <div className={styles.formIcons}>
-                                        <FavoriteBorderIcon />
-                                        <DeleteIcon />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={styles.form}>
-                                <div>
-                                    <div className={styles.formHeader}>
-                                        <div className={styles.status}>• New</div>
-                                        <div>Feb 24</div>
-                                    </div>
-                                    <div className={styles.heading}>
-                                        <h2>Form1</h2>
-                                        <p>text text text lol</p>
-                                    </div>
-                                    <div className={styles.formIcons}>
-                                        <FavoriteBorderIcon />
-                                        <DeleteIcon />
-                                    </div>
-                                </div>
-                            </div>                            
+                            {this.state.forms.map(form=>{
+                               return( <Form />)
+                            })}
                         </div>
+
                    </div>
                 </div>
             </React.Fragment>
