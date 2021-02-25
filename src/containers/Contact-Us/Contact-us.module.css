@@ -1,0 +1,32 @@
+.wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:80vh;
+    width:80vw;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:var(--whiteLight);
+    padding:10px;
+}
+.left{
+    background:var(--purpleDark);
+    width:40%;
+    height:80vh;
+}
+.left>div{
+    margin-top:5vh;
+}
+.left>div>h2{
+    color:var(--purpleLight);
+    text-align:center;
+}
+.right{
+    background:var(--whiteLight);
+    width:60%;
+    height:80vh;
+}
