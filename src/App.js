@@ -5,6 +5,7 @@ import { Switch , Route } from 'react-router-dom';
 
 import Home from '../src/containers/Home/Home';
 import LoginApp from "../src/components/LoginApp/LoginApp";
+import Contact from '../src/containers/Contact-Us/Contact-us';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/login" component={LoginApp} />
+        <Route path="/contact" component={Contact} />
       </Switch>
     </React.Fragment>
   );

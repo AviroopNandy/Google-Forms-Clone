@@ -33,7 +33,7 @@
     flex-direction: row;
 }
 .formIcons>svg{
-    font-size: 2vw !important;
+    font-size: 1.5vw !important;
     background:var(--whiteLightTwo);
     margin-right:10px;
     padding:2px;
