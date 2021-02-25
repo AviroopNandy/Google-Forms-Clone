@@ -1,8 +1,7 @@
 .container{
     width:90%;
-    margin:2% auto;
+    margin:3% auto;
     background:var(--whiteLight);
-    min-height:85vh;
     border-radius:2rem;
     padding:20px;
     display:flex;

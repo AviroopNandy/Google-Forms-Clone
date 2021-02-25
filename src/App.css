@@ -14,7 +14,6 @@ body{
   margin:0;
   padding:0;
   min-height:100vh;
-  /* overflow-y:hidden; */
-  background:var(--purpleLight);
+  background:linear-gradient(145deg,var(--purpleDark) 50%,var(--purpleLight) 50%);
   font-family: 'Oxygen', sans-serif;
 }

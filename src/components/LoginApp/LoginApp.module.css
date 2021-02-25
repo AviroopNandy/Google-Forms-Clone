@@ -6,19 +6,42 @@ body,
     /* width: 100vw; */
     height: 100vh;
     box-sizing: border-box;
-    /* background:  #3b81f5; */
 }
 
 .rootContainer {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(to bottom, #008a8c, #00e9ed);
+    /* background: linear-gradient(90deg, var(--purpleDark) 50%, var(--purpleLight) 50%); */
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    /* justify-content: space-around; */
     align-items: center;
 }
-
+.sub1{
+    width:40%;
+    height:100vh;
+    background:var(--purpleDark);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sub1>div{
+    width:45%;
+    background:var(--purpleLight);
+    padding:2%;
+    border-radius: 5px;
+    margin:2%;
+}
+.sub2{
+    width:60%;
+    height:100vh;
+    background:var(--purpleLight);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 .boxController {
     visibility: visible;
     display: -webkit-box;
