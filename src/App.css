@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
 :root{
   --purpleLight:#E0DFF6;
   --purpleDark:#4e48bb;
@@ -15,5 +16,5 @@ body{
   min-height:100vh;
   /* overflow-y:hidden; */
   background:var(--purpleLight);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
