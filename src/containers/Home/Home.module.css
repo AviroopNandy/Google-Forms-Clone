@@ -9,51 +9,6 @@
     flex-direction:row;
     justify-content: space-between;
 }
-.sideContainer{
-    width:20%;
-}
-ul{
-    list-style-type: none;
-    padding:0.2rem;
-}
-li{
-    margin-top:10%;
-    display:flex;
-    width:70%;
-    transition:0.3s all ease-in;
-}
-.sideContainer>h1{
-    background:var(--purpleDark);
-    width:90%;
-    padding:2.5%;
-    border-radius: 3px;
-    color:white;
-    font-size: 2vw;
-}
-li>h4{
-    padding:0;
-    margin:0;
-    font-size:1.2vw;
-}
-li:hover{
-    transform: scale(1.1);
-    border-bottom: 1.5px solid var(--purpleDark);
-}
-li:hover  .sideIcons {
-    color:var(--purpleDark)
-}
-li:hover  h4 {
-    color:var(--purpleDark)
-}
-svg{
-    vertical-align:middle;
-    margin-right:5%;
-    font-size: 2vw !important;
-}
-.sideIcons{
-    margin-right:15%;
-    vertical-align:text-bottom !important;
-}
 .mainContainer{
     background:var(--whiteLightTwo);
     width:85%;
