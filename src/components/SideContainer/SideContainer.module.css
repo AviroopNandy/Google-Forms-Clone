@@ -43,3 +43,35 @@ svg{
     margin-right:15%;
     vertical-align:text-bottom !important;
 }
+.statistics{
+    bottom:0;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:100%;
+    margin-left:-5%;
+}
+.statistics>div{
+    /* flex:1; */
+    width:40%;
+    margin-bottom:2%;
+    background:var(--pinkOne);
+    padding:4%;
+    border-radius:5px;
+}
+.statistics>div>p{
+    font-size:0.75rem;
+    padding-bottom:0;
+    margin-bottom:0;
+}
+.statistics>div>h3{
+    margin:5%;
+    padding:0 5px;
+    float:right;
+    margin-right:10px;
+    border:2px solid var(--pinkTwo);
+    width: 20px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: center;
+}

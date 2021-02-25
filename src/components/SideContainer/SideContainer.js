@@ -20,6 +20,15 @@ export default class SideContainer extends Component {
                     <li><DeleteOutlinedIcon className={styles.sideIcons}/><h4>Bin</h4></li>
                     <li><PermContactCalendarOutlinedIcon className={styles.sideIcons}/><h4>Contact</h4></li>
                 </ul>
+                <div style={{marginTop:"45%"}}>
+                    <h3>Statistics</h3>
+                    <div className={styles.statistics}>
+                        <div><p>Created</p><h3>8</h3></div>
+                        <div><p>Submitted</p><h3>32</h3></div>
+                        <div><p>Favourites</p><h3>45</h3></div>
+                        <div><p>Deleted</p><h3>2</h3></div>                    
+                    </div>
+                </div>
         </div>
         )
     }

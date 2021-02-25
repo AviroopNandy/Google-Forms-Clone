@@ -25,7 +25,20 @@ export default class Home extends Component {
                             <div className={styles.topLeft}>
                                 <div className={styles.profile} title="Create form"><AddOutlinedIcon /></div>
                                 <div className={styles.profile} title="Your Profile"><PermIdentityOutlinedIcon /></div>
-                            </div>
+{/* 
+                                <div id="profile-body">
+                                    <div id="profile-container">
+                                        <div id="profile-wrapper">
+                                            <a href="#">
+                                                <img id="profile-image" src="{{image}}" alt="src/public/favicon.png" />
+                                            </a>
+                                            <div id="profile-title">Mounvi</div>
+                                        </div>
+                                        <br />
+                                        <a href="/auth/logout"><button id="logout-button">Logout</button></a>
+                                    </div>
+                                </div> */}
+                        </div>
                         </div>
                         <CarouselContainer />
                         <h3>All Forms</h3>

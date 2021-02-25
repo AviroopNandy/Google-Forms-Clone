@@ -27,8 +27,12 @@ body,
     align-items: center;
 }
 .sub1>h1{
-    width:100%;
+    width:60%;
     text-align: center;
+    border:2px solid var(--purpleLight);
+    padding:1%;
+    border-radius: 5px;
+    color:var(--purpleLight);
 }
 .sub1>div{
     width:45%;
