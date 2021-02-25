@@ -1,7 +1,7 @@
 import React from "react";
 import Login from "../Login/Login.js";
 import Signup from "../Signup/Signup.js";
-import module from "./LoginApp.module.css";
+import styles from "./LoginApp.module.css";
 
 class LoginApp extends React.Component {
     constructor(props) {
@@ -28,20 +28,20 @@ class LoginApp extends React.Component {
 
     render() {
         return(
-            <div className={ module.rootContainer }>
-                <div className={ module.boxController }>
-                    <div className={ module.controller } onClick={ this.showLoginBox.bind(this) }>
-                        <div className={ (this.state.isLoginActive ? module.selectedController : "") }>
+            <div className={ styles.rootContainer }>
+                <div className={ styles.boxController }>
+                    <div className={ styles.controller } onClick={ this.showLoginBox.bind(this) }>
+                        <div className={ (this.state.isLoginActive ? styles.selectedController : "") }>
                             Log-In
                         </div>
                     </div>
-                    <div className={ module.controller } onClick={ this.showSignupBox.bind(this) }>
-                        <div className={ (this.state.isSignupActive ? module.selectedController : "") }>
+                    <div className={ styles.controller } onClick={ this.showSignupBox.bind(this) }>
+                        <div className={ (this.state.isSignupActive ? styles.selectedController : "") }>
                             Sign-Up
                         </div>
                     </div>
                 </div>
-                <div className={ module.boxContainer }>
+                <div className={ styles.boxContainer }>
                     { this.state.isLoginActive && <Login /> }
                     { this.state.isSignupActive && <Signup /> }
                 </div>

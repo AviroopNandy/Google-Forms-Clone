@@ -1,0 +1,42 @@
+.carouselContainer{
+    margin:3% 0 2% 0;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background:var(--pinkOne);
+    padding:2%;
+    border-radius: 10px;
+    user-select: none;
+    cursor:not-allowed;
+}
+.crow{
+    display:flex;
+    flex-direction: row;
+    width:85%;
+    margin:auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.crow>div{
+    background:var(--pinkTwo);
+    padding:1.5%;
+    margin:0% 2%;
+    border-radius:10px;
+    flex:1;
+}
+.slider{
+    height:8vh;
+    width:100%;
+    margin-top:1vh;
+}
+.done{
+    background:var(--pinkOne);
+    border-radius: 5px;
+    padding:1%;
+}
+.done>svg{
+    vertical-align: middle;
+}
+.buttonContainer{
+    margin-top:5px;
+}

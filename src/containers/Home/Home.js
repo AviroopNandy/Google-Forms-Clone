@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styles from './Home.module.css';
+import CarouselContainer from '../../components/Carousel/Carousel';
 
 import DnsIcon from '@material-ui/icons/Dns';
 import ListAltOutlinedIcon from '@material-ui/icons/ListAlt';
@@ -38,11 +39,7 @@ export default class Home extends Component {
                                 <div className={styles.profile} title="Your Profile"><PermIdentityOutlinedIcon /></div>
                             </div>
                         </div>
-                        <div className={styles.carouselContainer}>
-                            <div>hello</div>
-                            <div>hello</div>
-                            <div>hello</div>
-                        </div>
+                        <CarouselContainer />
                         <h3>All Forms</h3>
                         <div className={styles.formsContainer}>
                             <div className={styles.form}>

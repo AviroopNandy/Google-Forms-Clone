@@ -10,8 +10,8 @@ function App() {
   return (
     <React.Fragment>
       <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/Login" component={LoginApp} />
+        <Route exact path="/" component={Home} />
+        <Route path="/login" component={LoginApp} />
       </Switch>
     </React.Fragment>
   );
