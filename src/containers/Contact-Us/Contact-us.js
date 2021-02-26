@@ -54,7 +54,7 @@ export default class Contact extends Component {
                             </div>
                             <div>
                                 <label for='phone'>Phone Number</label>
-                                <input type="number" name='phone' placeholder='+91 XXXXXXXXXX' />
+                                <input type="phone" name='phone' placeholder='+91 XXXXXXXXXX' />
                             </div>
                             </div>
                             <h3>Tell us what's your query is about?!</h3>
@@ -74,7 +74,7 @@ export default class Contact extends Component {
                                 <label for='message'><p>Message</p></label>
                                 <input type="text" name='message' placeholder='Your message' />
                             </div>
-                            <button>Send</button>
+                            <button className={styles.send}>Send</button>
                         </div>
                     </div>
                 </div>

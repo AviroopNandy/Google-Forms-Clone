@@ -15,7 +15,6 @@
     color:grey;
     margin-bottom:2%;
 }
-
 .container{
     height:80vh;
     width:80vw;
@@ -25,6 +24,7 @@
     align-items: center;
     background:var(--whiteLight);
     padding:10px;
+    border-radius: 25px;
 }
 .left{
     background:var(--purpleDark);
@@ -177,7 +177,7 @@ input[type="radio"]:focus{
     padding-bottom:0;
     margin-bottom:0;
 }
-button{
+.send{
     display:flex;
     padding:2% 5%;
     float:right;
@@ -186,4 +186,5 @@ button{
     border:none;
     border-radius: 5px;
     color:var(--purpleLight);
+    outline:none;
 }
