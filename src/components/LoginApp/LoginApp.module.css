@@ -7,24 +7,40 @@ body,
     height: 100vh;
     box-sizing: border-box;
 }
-
+.wrapper>h2{
+    /* text-align: center; */
+    margin:0;
+    padding:0;
+}
+.wrapper>p{
+    /* text-align: center; */
+    font-size:0.75rem;
+    margin-top:0;
+    padding-top:0;
+    margin-bottom:2%;
+    color:grey;
+}
 .rootContainer {
-    width: 100%;
-    min-height: 100vh;
+    width: 80vw;
+    min-height: 80vh;
+    background:var(--whiteLightThree);
+    border-radius: 5px;
     /* background: linear-gradient(90deg, var(--purpleDark) 50%, var(--purpleLight) 50%); */
     display: flex;
     flex-direction: row;
     /* justify-content: space-around; */
     align-items: center;
+    padding:0.5%;
 }
 .sub1{
     width:40%;
-    height:100vh;
+    height:80vh;
     background:var(--purpleDark);
     display:flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    border-radius: 25px;
 }
 .sub1>h1{
     width:60%;
@@ -36,15 +52,16 @@ body,
 }
 .sub1>div{
     width:45%;
-    background:var(--purpleLight);
+    background:var(--whiteLightTwo);
     padding:2%;
     border-radius: 5px;
     margin:2%;
+    color:var(--pinkTwo)
 }
 .sub2{
     width:60%;
-    height:100vh;
-    background:var(--purpleLight);
+    height:80vh;
+    background:var(--whiteLightThree);
     display:flex;
     justify-content: center;
     flex-direction: column;
@@ -140,7 +157,7 @@ body,
     margin-top: -35px;
     pointer-events: none;
     transition: 500ms;
-    color: #666666;
+    color: var(--purpleDark);
 }
 
 .loginLabel {

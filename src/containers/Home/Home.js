@@ -14,6 +14,7 @@ export default class Home extends Component {
     render() {
         return (
             <React.Fragment>
+                <div className={styles.wrapper}>
                 <div className={styles.container}>
                     <SideContainer />
                    <div className={styles.mainContainer}>
@@ -49,6 +50,7 @@ export default class Home extends Component {
                         </div>
 
                    </div>
+                </div>
                 </div>
             </React.Fragment>
         )
