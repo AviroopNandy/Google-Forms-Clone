@@ -35,7 +35,10 @@ class LoginApp extends React.Component {
 
     render() {
         return(
-            <div className={ styles.rootContainer }>
+            <div className={styles.wrapper}>
+                <h2>Connect with us :'')</h2>
+                <p>Promsing a FAB experience!</p>
+                <div className={ styles.rootContainer }>
                 <div className={styles.sub1}>
                     <h1><DnsIcon />Fab Forms</h1>
                     <div><CodeIcon className={styles.done} />Hassle Free</div>
@@ -63,6 +66,7 @@ class LoginApp extends React.Component {
                         { this.state.isSignupActive && <Signup /> }
                     </div>
                 </div>
+            </div>
             </div>
         );
     }

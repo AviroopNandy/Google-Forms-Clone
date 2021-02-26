@@ -1,12 +1,24 @@
+.wrapper{
+    width:100vw;
+    height:120vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* padding:2%; */
+}
 .container{
-    width:90%;
-    margin:3% auto;
+    width:85%;
+    /* min-height:100vh; */
+    margin:auto;
     background:var(--whiteLight);
     border-radius:2rem;
     padding:20px;
     display:flex;
     flex-direction:row;
     justify-content: space-between;
+    /* justify-content: center; */
+    margin-top:10%;
+    margin-bottom:2%;
 }
 .mainContainer{
     background:var(--whiteLightTwo);
