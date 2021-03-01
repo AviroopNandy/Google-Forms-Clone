@@ -11,9 +11,9 @@ function App() {
   return (
     <React.Fragment>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/login" component={LoginApp} />
-        <Route exact path="/contact" component={Contact} />
+        <Route path="/" exact component={Home} />
+        <Route path="/user/auth" component={LoginApp} />
+        <Route path="/contact" component={Contact} />
       </Switch>
     </React.Fragment>
   );
