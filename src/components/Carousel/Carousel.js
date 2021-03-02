@@ -36,7 +36,7 @@ export default class extends React.Component {
             <div className={styles.crow}>
                 <div><DoneIcon className={styles.done} />ReactJS</div>
                 <div><DoneIcon className={styles.done} />NodeJS</div>
-                <div><DoneIcon className={styles.done} />MongoDB</div>
+                <div><DoneIcon className={styles.done} />Material UI</div>
             </div>
           </Slide>
           <Slide index={2}>
