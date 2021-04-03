@@ -45,7 +45,7 @@ export default function Contact() {
             <React.Fragment>
                 <div className={styles.wrapper}>
                     <h1>Contact Us</h1>
-                    <p>Always happy to help!</p>
+                    <p>We will be happy to help!</p>
                 <div className={styles.container}>
                     <div className={styles.left}>
                         <div>

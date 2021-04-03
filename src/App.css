@@ -20,7 +20,7 @@ body{
   display:flex;
   justify-content: center;
   align-items: center;
-  background:var(--purpleLight);
+  /* background:var(--purpleLight); */
   font-family: 'Oxygen', sans-serif;
 }
 

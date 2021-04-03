@@ -17,7 +17,7 @@
 import React from 'react';
 import styles from './SideContainer.module.css';
 import Contact from '../../containers/Contact-Us/Contact-us';
-import { Redirect } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 
 import DnsIcon from '@material-ui/icons/Dns';
 import ListAltOutlinedIcon from '@material-ui/icons/ListAlt';
@@ -28,7 +28,6 @@ import PermContactCalendarOutlinedIcon from '@material-ui/icons/PermContactCalen
 
 export default function SideContainer() {
         function contactRedirect(){
-        return
             <Redirect to='/contact' />
         
     }
@@ -36,11 +35,11 @@ export default function SideContainer() {
         <div className={styles.sideContainer}>
         <h1><DnsIcon />Fab Forms</h1>
         <ul>
-            <li><HomeOutlinedIcon className={styles.sideIcons}/><h4>Home</h4></li>
-            <li><ListAltOutlinedIcon className={styles.sideIcons}/><h4>Forms</h4></li>
-            <li><PermMediaOutlinedIcon className={styles.sideIcons}/><h4>Folders</h4></li>
-            <li><DeleteOutlinedIcon className={styles.sideIcons}/><h4>Bin</h4></li>
-            <li onClick={()=>{return contactRedirect()}}><PermContactCalendarOutlinedIcon className={styles.sideIcons}/><h4>Contact</h4></li>
+            <Link to="/" style={{textDecoration:"none"}}><li><HomeOutlinedIcon className={styles.sideIcons}/><h4>Home</h4></li></Link>
+            <Link to="/" style={{textDecoration:"none"}}><li><ListAltOutlinedIcon className={styles.sideIcons}/><h4>Forms</h4></li></Link>
+            <Link to="/" style={{textDecoration:"none"}}><li><PermMediaOutlinedIcon className={styles.sideIcons}/><h4>Folders</h4></li></Link>
+            <Link to="/" style={{textDecoration:"none"}}><li><DeleteOutlinedIcon className={styles.sideIcons}/><h4>Bin</h4></li></Link>
+            <Link to="/contact" style={{textDecoration:"none"}}><li><PermContactCalendarOutlinedIcon className={styles.sideIcons}/><h4>Contact</h4></li></Link>
         </ul>
         <div style={{marginTop:"45%"}}>
             <h3>Statistics</h3>
