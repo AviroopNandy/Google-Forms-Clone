@@ -188,3 +188,23 @@ input[type="radio"]:focus{
     color:var(--purpleLight);
     outline:none;
 }
+.thanks{
+    display:flex;
+    padding:0 3%;
+    float:right;
+    margin-top:10% !important;
+    background:var(--purpleDark);
+    border:none;
+    border-radius: 5px;
+    color:var(--purpleLight);
+    outline:none;
+    font-size:1.5vw;
+    user-select: none;
+    cursor:not-allowed;
+}
+.thanks>p{
+    font-size:1.5vw;
+    font-weight:600;
+    padding:2px;
+    margin:2px;
+}
