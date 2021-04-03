@@ -61,6 +61,7 @@ input:focus{
     justify-content: center;
     align-items: center;
     transition:all 0.5s ease;
+    cursor: pointer;
 }
 .profile:hover{
     background:var(--purpleDark);

@@ -9,7 +9,8 @@ li{
     margin-top:10%;
     display:flex;
     width:70%;
-    transition:0.3s all ease-in;
+    transition:all 250ms ease-in-out;
+    cursor: pointer;
 }
 .sideContainer>h1{
     background:var(--purpleDark);

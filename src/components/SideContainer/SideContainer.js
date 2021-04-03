@@ -1,23 +1,6 @@
-
-
-// export default class SideContainer extends Component {
-//     contactRedirect=()=>{
-//         return(
-//             <Redirect to='/contact' />
-//         )
-//     }
-//     this.contactRedirect=this.contactRedirect.bind(this);
-//     render() {
-//         return (
-
-//         )
-//     }
-// }
-
 import React from 'react';
 import styles from './SideContainer.module.css';
-import Contact from '../../containers/Contact-Us/Contact-us';
-import { Link, Redirect } from 'react-router-dom';
+import { Link  } from 'react-router-dom';
 
 import DnsIcon from '@material-ui/icons/Dns';
 import ListAltOutlinedIcon from '@material-ui/icons/ListAlt';
@@ -27,10 +10,6 @@ import PermMediaOutlinedIcon from '@material-ui/icons/PermMediaOutlined';
 import PermContactCalendarOutlinedIcon from '@material-ui/icons/PermContactCalendarOutlined';
 
 export default function SideContainer() {
-        function contactRedirect(){
-            <Redirect to='/contact' />
-        
-    }
     return (
         <div className={styles.sideContainer}>
         <h1><DnsIcon />Fab Forms</h1>
@@ -46,11 +25,10 @@ export default function SideContainer() {
             <div className={styles.statistics}>
                 <div><p>Created</p><h3>8</h3></div>
                 <div><p>Submitted</p><h3>32</h3></div>
-                <div><p>Favourites</p><h3>45</h3></div>
+                <div><p>Favourites</p><h3>33</h3></div>
                 <div><p>Deleted</p><h3>2</h3></div>                    
             </div>
         </div>
 </div>
     )
 }
-
