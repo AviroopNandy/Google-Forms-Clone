@@ -23,8 +23,8 @@ body,
 .rootContainer {
     width: 80vw;
     min-height: 80vh;
-    background:var(--whiteLightThree);
-    border-radius: 25px;
+    /* background:var(--purpleDark); */
+    /* border-radius: 25px; */
     /* background: linear-gradient(90deg, var(--purpleDark) 50%, var(--purpleLight) 50%); */
     display: flex;
     flex-direction: row;
@@ -40,7 +40,7 @@ body,
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border-radius: 25px;
+    /* border-radius: 25px; */
 }
 .sub1>h1{
     width:60%;
@@ -56,16 +56,22 @@ body,
     padding:2%;
     border-radius: 5px;
     margin:2%;
-    color:var(--pinkTwo)
+    color:var(--pinkTwo);
+    transition:all 0.5s ease;
+}
+.sub1>div:hover{
+    transform: scale(1.01);
 }
 .sub2{
     width:60%;
     height:80vh;
-    background:var(--whiteLightThree);
+    /* background:var(--whiteLightThree); */
     display:flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    /* border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; */
 }
 .boxController {
     visibility: visible;
